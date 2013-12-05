@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : lvwzhen@github
+      short_name : lvwzhengithub
     livefyre :
       site_id : 123
     intensedebate :
