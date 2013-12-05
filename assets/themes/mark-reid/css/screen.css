@@ -370,6 +370,7 @@ pre > code {
 /* @group Disqus */
 #disqus_thread {
 	margin-top: 2.93em;
+	padding-top: 30px;
 }
 .dsq-comment-body {
 	text-align: justify;
