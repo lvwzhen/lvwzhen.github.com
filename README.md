@@ -1,40 +1,56 @@
-# Jekyll-Bootstrap
+Scribble
+========
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+A jekyll theme. [demo](http://chloerei.com/scribble/2013/10/11/placeholder-post/)
+<br />
 
-## Usage
+![screenshot](http://scribble.muan.co/images/screenshot.png)
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+This theme is fork from https://github.com/muan/scribble .
 
-## Version
+---
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+### Get started
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+1. [Fork the repository](https://github.com/chloerei/scribble/fork).
+2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble` .
+3. `bundle install` .
+4. Run serve and watch assets change using `rake`, go to http://localhost:4000 for your site.
 
-## Contributing
+---
 
+### Replace theme for exists site
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+1. Remove all theme files in your project, and commit.
+2. `git remote add scribble https://github.com/username/scribble` .
+3. `git pull scribble master` and fix conflict.
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+---
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+### Make it yours
 
-**Jekyll-Bootstrap Documentation Website.**
+1. I have extract most user specific information to `_config.yml`, you should be able to set up almost everything from it.
+2. Change about.md for blog intro.
+3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+---
 
+### Post options
 
-## License
+When writing a post, there are 1 option you can add to the header.
 
-[MIT](http://opensource.org/licenses/MIT)
+1. `disqus: false`<br />
+   Close Disqus for this post.
+
+---
+
+### Page options
+
+When writing a page, there are 3 options you can add to the header.
+
+1. `disqus: false`<br />
+   Close Disqus for this post.
+2. `prev_page: /path/to/prev_page`<br />
+   Set the prev page path for pagination.
+3. `next_page: /path/to/next_page`<br />
+   Set the next page path for pagination.
