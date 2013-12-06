@@ -18,7 +18,7 @@ links:
     url:          mailto:lvwzhen@gmail.com
     external:     true
   - name:         GitHub
-    url:          http://github.com/lvwzhen@github.com
+    url:          http://github.com/lvwzhen
     external:     true
 
 pygments:         true
