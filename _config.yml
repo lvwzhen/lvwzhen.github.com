@@ -11,7 +11,7 @@ links:
     url:          http://lvwzhen.github.io
   - name:         Feed
     url:          /feed.xml
-  - name:         thus.in
+  - name:         Thus.in
     url:          http://thus.in
     external:     true
   - name:         Email
