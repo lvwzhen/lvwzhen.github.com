@@ -87,7 +87,7 @@ footer {
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
-  border: 1px solid #eee;
+  /*border: 1px solid #eee;*/
   position: relative;
   *zoom: 1;
   -webkit-box-sizing: border-box;
@@ -99,8 +99,8 @@ footer {
   #container:after {
     clear: both; }
   #container .block {
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
+    /*border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;*/
     padding: 30px 40px 24px;
     text-align: center; }
     #container .block:first-child, #container .block + .block {
@@ -140,7 +140,7 @@ footer {
 
 a, .as-link {
   text-decoration: none;
-  color: #269;
+  color: #dd0000;
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
