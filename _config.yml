@@ -7,12 +7,12 @@ disqus_shortname: lvwzhengithub # disqus comment thread for post header options.
 google_analytics_id: # set tracking, UA-XXXX-Y.
 
 links:
-  - name:         About
-    url:          /about
+  - name:         Home
+    url:          http://lvwzhen.github.io
   - name:         Feed
     url:          /feed.xml
-  - name:         Blog
-    url:          http://lvwzhen.github.io
+  - name:         thus.in
+    url:          http://thus.in
     external:     true
   - name:         Email
     url:          mailto:lvwzhen@gmail.com
