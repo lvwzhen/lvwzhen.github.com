@@ -23,6 +23,6 @@ links:
 
 pygments:         true
 permalink:        pretty
-markdown:         redcarpet
+markdown:         kramdown
 redcarpet:
   extensions:     [autolink, tables]
