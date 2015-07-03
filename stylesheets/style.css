@@ -67,6 +67,14 @@ body {
 blockquote {
   margin: 0;
   font-style: normal !important; }
+  
+code{
+  border: 1px solid #666;
+  padding: 3px;
+  border-radius: 4px;
+  margin: 0 3px;
+  font-size: .9;
+}
 
 header {
   text-align: center; }
